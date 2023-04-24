@@ -1,4 +1,4 @@
-package leetcode;
+package com.qingsong.leetcode;
 
 /**
  * 题目链接：https://leetcode.cn/problems/smallest-even-multiple/

@@ -1,4 +1,4 @@
-package common;
+package com.qingsong.common;
 
 import java.util.Arrays;
 

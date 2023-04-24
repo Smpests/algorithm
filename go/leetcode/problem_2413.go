@@ -1,6 +1,4 @@
-package main
-
-import ("fmt")
+package leetcode
 
 // 题目链接：https://leetcode.cn/problems/smallest-even-multiple/
 func smallestEvenMultiple(n int) int {
@@ -9,8 +7,4 @@ func smallestEvenMultiple(n int) int {
     }
     // 比写else快很多
     return n + n
-}
-
-func main() {
-	fmt.Println(smallestEvenMultiple(5))
 }

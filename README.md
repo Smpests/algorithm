@@ -7,3 +7,5 @@ Written by Codespaces.
 [Go](https://github.com/Smpests/algorithm/wiki/Go)
 
 [Java](https://github.com/Smpests/algorithm/wiki/Java)
+
+[Python](https://github.com/Smpests/algorithm/wiki/Python)
