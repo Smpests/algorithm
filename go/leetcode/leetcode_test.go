@@ -16,3 +16,11 @@ func TestMinHeightShelves(t *testing.T) {
 	output := minHeightShelves(input, 4)
 	assert.Equal(t, expected, output)
 }
+
+func TestSortPeople(t *testing.T) {
+	names := []string{"Mary","John","Emma"}
+	heights := []int{180,165,170}
+	expected := []string{"Mary","Emma","John"}
+	output := sortPeople(names, heights)
+	assert.Equal(t, expected, output)
+}

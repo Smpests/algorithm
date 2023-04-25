@@ -24,4 +24,13 @@ public class LeetcodeTest {
         int[][] input = {{1, 1,}, {2, 3}, {2, 3}, {1, 1}, {1, 1}, {1, 1}, {1, 2}};
         Assertions.assertEquals(6, problem.minHeightShelves(input, 4));
     }
+
+    @Test
+    public void testSortPeople() {
+        Problem2418 problem = new Problem2418();
+        String[] names = {"Mary","John","Emma"};
+        int[] heights = {180,165,170};
+        String[] expected = {"Mary","Emma","John"};
+        Assertions.assertArrayEquals(expected, problem.sortPeople(names, heights));
+    }
 }
