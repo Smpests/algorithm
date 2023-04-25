@@ -21,3 +21,10 @@ func TestUpdate(t *testing.T) {
 	segmentTree.Update(2, 6)
 	assert.Equal(t, 10, segmentTree.Query(2, 3))
 }
+
+func TestBigSliceBuild(t *testing.T) {
+	var segmentTree SegmentTree
+	randomSlice := generateRandomIntSlice(100000, 1000)
+	segmentTree.Build(randomSlice)
+	// average took 0.03s
+}
